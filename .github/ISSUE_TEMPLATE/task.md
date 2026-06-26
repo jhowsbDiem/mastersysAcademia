@@ -1,23 +1,23 @@
 ---
-name: Nova Tarefa / Funcionalidade 🚀
-about: Adicione uma nova meta ou funcionalidade que precisa ser desenvolvida do zero.
+name: New Task / Feature 🚀
+about: Add a new goal or feature that needs to be developed from scratch.
 title: '[TASK] '
 labels: feature
 assignees: ''
 ---
 
-**Qual é o objetivo desta tarefa?**
-Descreva de forma clara o que precisa ser construído nesta etapa do projeto. Ex: "Criar a estrutura inicial de comunicação I2C para ler os sensores."
+**What is the goal of this task?**
+Clearly describe what needs to be built in this stage of the project. E.g.: "Create the initial I2C communication structure to read the sensors."
 
-**Requisitos Técnicos (O que precisa ser feito):**
-- [ ] Desenvolver a função X...
-- [ ] Integrar com o componente Y...
-- [ ] Adicionar as bibliotecas necessárias.
+**Technical Requirements (What needs to be done):**
+- [ ] Develop function X...
+- [ ] Integrate with component Y...
+- [ ] Add the necessary libraries.
 
-**📋 Critérios de Aceite (Como saberemos que a tarefa está pronta?):**
-- [ ] O código compila sem erros.
-- [ ] A nova funcionalidade atende ao requisito principal.
-- [ ] O hardware/software responde conforme esperado nos testes básicos.
+**📋 Acceptance Criteria (How will we know the task is done?):**
+- [ ] The code compiles without errors.
+- [ ] The new feature meets the main requirement.
+- [ ] The hardware/software responds as expected in basic tests.
 
-**Dependências:**
-Esta tarefa depende de alguma outra Issue ser concluída primeiro? (Ex: "Depende da Issue #3 estar finalizada").
+**Dependencies:**
+Does this task depend on another Issue being completed first? (E.g.: "Depends on Issue #3 being finished").
