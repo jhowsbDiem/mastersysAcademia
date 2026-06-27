@@ -1,23 +1,25 @@
 ---
-name: New Task / Feature 🚀
-about: Add a new goal or feature that needs to be developed from scratch.
-title: '[TASK] '
-labels: feature
+name: Task / Chore
+about: Create a generic task, maintenance, or configuration work
+title: '[Task] '
+labels: task, chore
 assignees: ''
 ---
 
-**What is the goal of this task?**
-Clearly describe what needs to be built in this stage of the project. E.g.: "Create the initial I2C communication structure to read the sensors."
+### Description
+<!-- A clear and concise description of the task. -->
 
-**Technical Requirements (What needs to be done):**
-- [ ] Develop function X...
-- [ ] Integrate with component Y...
-- [ ] Add the necessary libraries.
 
-**📋 Acceptance Criteria (How will we know the task is done?):**
-- [ ] The code compiles without errors.
-- [ ] The new feature meets the main requirement.
-- [ ] The hardware/software responds as expected in basic tests.
+### To Do
+<!-- List the specific steps required to complete this task. -->
+- [ ] 
+- [ ] 
+- [ ] 
 
-**Dependencies:**
-Does this task depend on another Issue being completed first? (E.g.: "Depends on Issue #3 being finished").
+### Definition of Done
+<!-- How do we know this task is completed? (e.g., "The pipeline runs successfully") -->
+- [ ] 
+
+
+### Additional Context
+<!-- Add any other context or relevant links here. -->

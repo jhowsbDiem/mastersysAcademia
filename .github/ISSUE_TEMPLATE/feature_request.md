@@ -1,19 +1,24 @@
 ---
-name: Sugestão de Melhoria 💡
-about: Sugira uma ideia para este projeto
-title: '[FEATURE] '
+name: Feature Request
+about: Suggest a new feature for the project
+title: '[Feature] '
 labels: enhancement
 assignees: ''
 ---
 
-**Sua sugestão está relacionada a um problema? Por favor, descreva.**
-Uma descrição clara e concisa sobre o problema.
+### Description
+<!-- A clear and concise description of the new feature. -->
 
-**Descreva a solução que você gostaria**
-Uma descrição clara e concisa do que você quer que aconteça.
 
-**Descreva as alternativas que você considerou**
-Uma descrição clara e concisa de quaisquer soluções alternativas ou recursos que você tenha considerado.
+### Tasks to Complete
+<!-- List the steps required to complete this feature. -->
+- [ ] 
+- [ ] 
+- [ ] 
 
-**Contexto Adicional**
-Adicione qualquer outro contexto ou capturas de tela sobre a solicitação de recurso aqui.
+### Expected Behavior
+<!-- A clear and concise description of what you expect to happen. -->
+
+
+### Additional Context
+<!-- Add any other context or screenshots about the feature request here. -->
