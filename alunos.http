@@ -1,0 +1,77 @@
+@baseUrl = http://localhost:8080
+
+### Cadastrar aluno
+POST {{baseUrl}}/alunos
+Content-Type: application/json
+
+{
+  "nome": "Leonardo da Silva",
+  "dataNascimento": "1978-05-19",
+  "sexo": "M",
+  "telefone": "2233344445",
+  "celular": "48991645543",
+  "email": "leonardo@email.com",
+  "observacao": "Aluno iniciante",
+  "endereco": "Rua das Pedras",
+  "numero": "321",
+  "complemento": "Apartamento 204",
+  "bairro": "Centro",
+  "cidade": "Juazeiro",
+  "estado": "CE",
+  "cep": "03862390"
+}
+
+### Listar alunos
+GET {{baseUrl}}/alunos
+
+### Listar alunos com paginação
+GET {{baseUrl}}/alunos?page=0&size=10&sorte=nome,asc
+
+### Buscar aluno por id
+GET {{baseUrl}}/alunos/1
+
+### Atualizar aluno
+PUT {{baseUrl}}/alunos/1
+Content-Type: application/json
+
+{
+  "nome": "Leonardo da Silva Atualizado",
+  "dataNascimento": "1978-05-19",
+  "sexo": "M",
+  "telefone": "2233344445",
+  "celular": "48991645543",
+  "email": "leonardo@email.com",
+  "observacao": "Aluno iniciante",
+  "endereco": "Rua das Pedras",
+  "numero": "321",
+  "complemento": "Apartamento 204",
+  "bairro": "Centro",
+  "cidade": "Juazeiro",
+  "estado": "CE",
+  "cep": "03862390"
+}
+
+### Excluir aluno
+DELETE {{baseUrl}}/alunos/1
+
+
+### Cadastrar aluno
+POST {{baseUrl}}/alunos
+Content-Type: application/json
+
+{
+  "nome": "Senhora das dores",
+  "dataNascimento": "1958-11-21",
+  "sexo": "M",
+  "telefone": "2233344445",
+  "celular": "48991645543",
+  "email": "leonardo@email.com",
+  "observacao": "Aluno iniciante",
+  "endereco": "Rua das Pedras",
+  "numero": "321",
+  "complemento": "Apartamento 204",
+  "bairro": "Centro",
+  "cidade": "Juazeiro",
+  "estado": "CE",
+  "cep": "03862390"
+}
